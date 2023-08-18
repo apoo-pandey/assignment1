@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <body>
+            <h3>Registration Form</h3>
+            <form style="background-color: aquamarine;">
+                <label for="fname">First name:</label>
+                <input type="text" name="fname"><br>
+                <label for="lname">Last name:</label>
+                <input type="text" name="lname"><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob"><br>
+                <label for="passw">Password:</label>
+                <input type="password" name="pass"><br>
+                <label>Qualification:</label>
+                <ul>
+                <input type="checkbox" name="qualification1" value="Graduate" checked="true">Graduate<br>
+                <input type="checkbox" name="qualification2" value="Post-Graduate">Post-Graduate<br>
+                </ul>
+                <label>Gender:</label>
+                <ul>
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female">Female<br>
+                <input type="radio" name="gender" value="other">Other<br>
+                </ul>
+                <label for="country">Country:</label>
+                <select name="country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Australia">Australia</option>
+                    <option value="UK">UK</option>
+                    <option value="China">China</option>
+                </select><br>
+                <label for="mobile">Mobile:</label>
+                <input type="tel" name="mobile"><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email"><br>
+                <label for="comments">Comments:</label>
+                <textarea name="comments" rows="10" cols="20"></textarea><br>
+                <input type="submit" value="Register">
+                <input type="reset" value="Cancel">
+            </form>
+        </body>
+    </head>
+</html>
